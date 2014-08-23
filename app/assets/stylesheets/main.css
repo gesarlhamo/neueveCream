@@ -1,0 +1,153 @@
+/*======================================================
+general outline-style: 
+========================================================*/
+
+body{
+	font-family:'Nunito', sans-serif;
+	background-color:#FFFFFF;
+}
+
+a{
+	color:#4FB69F;
+	text-decoration:none;
+}
+
+h1 {
+	font-size: 1.650em;
+	letter-spacing: -1.5px;
+	font-family:'Questrial', sans-serif;
+	color:#666666;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #B4C34F;
+} 
+/*======================================================
+ logo  
+========================================================*/
+
+#logo h1{
+	height:80px;
+	position:relative;
+	top:-89px;
+	right:28%;
+	text-align:center;
+	color:#ff748c;
+}
+
+#logo h1{
+	font-family:'Berkshire Swash', cursive;
+	font-size: 2.750em;
+}
+
+
+/*======================================================
+  Buy Button
+========================================================*/
+.btn {
+	color:yellow; 
+	background-color: #4fb69f;
+	padding: 15px 30px;
+	margin: 40px 0px;
+	border-radius:25px;
+	text-transform:uppercase;
+
+}
+
+.btn:hover{
+	background-color:#4cc4a7;
+};
+
+
+/*======================================================
+  Nav Bar(need to be done better)
+========================================================*/
+
+ul.nav{
+	margin: 85px 45px 0 0;
+	list-style: none;
+	float: right;
+}
+
+li{ 
+	margin: 85px 45px 0 0;
+	float: right;
+	list-style:none;
+	padding:10px;
+	font-weight:bold;
+	color:#4FB69F;
+}
+
+/* intro */
+
+#intro{
+	margin:20px 0 75px 0;
+
+}
+
+#intro h1 a:hover{
+	color:red;
+}
+
+
+
+/*======================================================
+  content ids for Jquery 
+========================================================*/
+
+#moreinfo{
+	width:545px;
+	height:100%;
+	display:block;
+}
+
+#customer-eval{
+	width:545px;
+	height:100%;
+	display:block;
+
+}
+
+#faq{
+	width:545px;
+	height:100%;
+
+}
+
+.btn-small:hover{
+	color:#79c7b6;
+};
+
+.customer-btn-small:hover{
+	color:red;
+};
+
+.faq-btn-small:hover{
+	color:red;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
