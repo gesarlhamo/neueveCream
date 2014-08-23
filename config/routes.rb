@@ -1,4 +1,7 @@
 NeueveCream::Application.routes.draw do
+
+  get "cream/index"
+  root 'cream#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
