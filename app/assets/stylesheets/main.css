@@ -26,12 +26,16 @@ h2 {
 /*======================================================
  logo  
 ========================================================*/
+#logo{
+	width:300px;
+	height:100px;
+}
 
 #logo h1{
-	height:80px;
+
 	position:relative;
-	top:-89px;
-	right:28%;
+	top:-250px;
+	left:450px;
 	text-align:center;
 	color:#ff748c;
 }
@@ -69,7 +73,6 @@ ul.nav{
 	list-style: none;
 	float: right;
 }
-
 li{ 
 	margin: 85px 45px 0 0;
 	float: right;
